@@ -1,0 +1,34 @@
+/* Color Theme Swatches in Hex 
+.Mosa-Jam-2018-Japanese-style-1-hex { color: #48358C; }
+.Mosa-Jam-2018-Japanese-style-2-hex { color: #F2C777; }
+.Mosa-Jam-2018-Japanese-style-3-hex { color: #F27E63; }
+.Mosa-Jam-2018-Japanese-style-4-hex { color: #D9A79C; }
+.Mosa-Jam-2018-Japanese-style-5-hex { color: #F26363; }
+
+/* Color Theme Swatches in RGBA 
+.Mosa-Jam-2018-Japanese-style-1-rgba { color: rgba(72, 53, 140, 1); }
+.Mosa-Jam-2018-Japanese-style-2-rgba { color: rgba(242, 199, 118, 1); }
+.Mosa-Jam-2018-Japanese-style-3-rgba { color: rgba(242, 125, 99, 1); }
+.Mosa-Jam-2018-Japanese-style-4-rgba { color: rgba(216, 167, 156, 1); }
+.Mosa-Jam-2018-Japanese-style-5-rgba { color: rgba(242, 99, 99, 1); }
+
+/* Color Theme Swatches in HSLA 
+.Mosa-Jam-2018-Japanese-style-1-hsla { color: hsla(253, 44, 37, 1); }
+.Mosa-Jam-2018-Japanese-style-2-hsla { color: hsla(39, 82, 70, 1); }
+.Mosa-Jam-2018-Japanese-style-3-hsla { color: hsla(11, 84, 66, 1); }
+.Mosa-Jam-2018-Japanese-style-4-hsla { color: hsla(11, 44, 73, 1); }
+.Mosa-Jam-2018-Japanese-style-5-hsla { color: hsla(0, 84, 66, 1); } */
+
+.container-fluid, html {
+	width: 100%;
+	background-color: #D9A79C;
+	text-align: center;
+}
+
+.rodape{
+	background-color: white;
+}
+.titulo{
+	text-align: center;
+	color: white;
+}

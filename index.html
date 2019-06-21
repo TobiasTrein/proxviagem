@@ -6,25 +6,29 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Próxima Viagem</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' href='css.css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-	<div class="container fluid">
+	<div class="container-fluid">
 		<div id="cabecalho"></div>
 
 		<div id="corpo">
 			<div class="row titulo">
+				<p class="text-center">Qual seu próximo destino de viagem?</p>
+			</div>
 
+			<div class="botao">
+				<button type="button" class="btn btn-dark">Descubra</button>
 			</div>
 
 			<div class="row resposta">
 
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleSlidesOnly" class="carousel slide rounded mx-auto d-block" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<!-- bandeira -->
-							<div id="bandeirapais"></div>
+							<div id="bandeirapais" style="width: 800px" ></div>
 							<!-- Nome -->
 							<div class="carousel-caption d-none d-md-block">
 									<h5 id="nomepais"></h5>
@@ -37,7 +41,11 @@
 
 		</div>
 
-        <div id="rodape"></div>
+        <div id="rodape">
+        	Autores: Tauana Auler e Tobias Trein <br>
+        	4º ano Técnico em Informática Integrado ao Ensino Médio <br>
+        	IFRS Campus Feliz
+        </div>
         
 	</div> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
